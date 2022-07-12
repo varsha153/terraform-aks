@@ -11,10 +11,10 @@ terraform {
 provider "azurerm" {
   features {}
   
-subscription_id = "f06a2365-8a60-4404-8703-c8e1f37d8d6e"
-client_id       = "da2b98c7-e2a3-42dd-806f-26937b51d5b0"
-client_secret   = "dtg8Q~.s1KFZRC5o6DdpmoK.wjU3.IWuWoOJ5din"
-tenant_id       = "e7f66541-5c19-46be-9c85-3c8282e2fb10"
+subscription_id = ""
+client_id       = ""
+client_secret   = ""
+tenant_id       = ""
 }
 
 resource "azurerm_resource_group" "aks-rg" {
